@@ -5,7 +5,7 @@ from appium.options.android import UiAutomator2Options
 from selene import browser
 from appium import webdriver
 
-from utils import attach
+from QA_Auto_hw19.utils import attach
 
 
 @pytest.fixture(scope="session", autouse=True)
