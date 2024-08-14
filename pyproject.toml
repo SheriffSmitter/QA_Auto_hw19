@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "qa-auto-hw19"
+version = "0.1.0"
+description = ""
+authors = ["Vadim Korolev <vkorol98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selene = "^2.0.0rc9"
+pytest = "^8.3.2"
+allure-pytest = "^2.13.5"
+appium-python-client = "^4.0.1"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
